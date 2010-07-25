@@ -1,0 +1,58 @@
+{% load cache cms_tags %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<head>
+<title>Class of 2009 &raquo; {% page_attribute title %}</title>
+<link href="/media/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="super">
+<div id="container">
+
+<div id="header">
+	<h1><a href="/"><img src="/media/images/title.gif" alt="Class of 2009, Princeton University"/></a></h1>
+</div>
+
+<div id="line">&nbsp;</div>
+
+<div class="clear"></div>
+
+<div id="navbar">
+  {% show_menu 0 0 0 0 %}
+</div>
+
+<div id="image-5">
+	<div id="box">
+	<div class="boxpad">
+	{% placeholder "Orange Box" %}
+	</div>
+	</div>
+</div>
+
+<div id="content">
+	<div id="left">{% placeholder "Left Title" %}</div>
+	<div id="right">{% placeholder "Right Title" %}</div>
+	<div class="clear-line"></div>
+	<div id="left-cont">{% placeholder "Left Content" %}</div>
+	<div id="right-cont">{% placeholder "Right Content" %}</div>	
+	<div class="clear"></div>
+</div>
+</div>
+
+<div id="footer">
+	<div class="left"><p>Copyright &copy; {% now "Y" %} The Trustees of Princeton University &middot; All Rights Reserved</p></div>
+	<div class="right"><p>Last update: {% now "F j, Y" %}</p></div>
+	<div class="clear"></div>
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9763365-5");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
