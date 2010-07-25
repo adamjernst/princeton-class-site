@@ -2,7 +2,7 @@
 import os
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 gettext = lambda s: s
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -77,7 +77,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
 )
 
-ROOT_URLCONF = 'Class.urls'
+ROOT_URLCONF = 'princeton-class-site.urls'
 
 TEMPLATE_DIRS = os.path.join(PROJECT_PATH, 'templates')
 # (templates being the name of my template dir within project-name)
