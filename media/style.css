@@ -121,6 +121,11 @@ body.officers #image {
 	width: 450px;
 }
 
+#wide {
+	float: left;
+	width: 900px;
+}
+
 #left-cont {
 	float: left;
 	width: 449px;

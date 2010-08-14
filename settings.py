@@ -110,4 +110,5 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('base.html', gettext('default')),
+    ('onecol.html', gettext('default')),
 )
