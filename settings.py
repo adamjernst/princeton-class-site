@@ -110,7 +110,4 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('base.html', gettext('default')),
-    ('2col.html', gettext('2 Column')),
-    ('3col.html', gettext('3 Column')),
-    ('extra.html', gettext('Some extra fancy template')),
 )

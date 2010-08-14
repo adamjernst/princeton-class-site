@@ -70,23 +70,16 @@ li.selected a {
 	color: white;
 }
 
-#image-1, #image-2, #image-3, #image-4, #image-5, #image-6, #image-7, #image-8, #image-9, #image-10, #image-11 {
+#image {
 	width: 900px;
 	height: 295px;
 	line-height: 0px;
+	background: #e75c01 url(images/bgimage5.jpg) no-repeat top left;
 }
 
-#image-1 { background: #e75c01 url(images/bgimage1.jpg) no-repeat top left; }
-#image-2 { background: #e75c01 url(images/bgimage2.jpg) no-repeat top left; }
-#image-3 { background: #e75c01 url(images/bgimage3.jpg) no-repeat top left; }
-#image-4 { background: #e75c01 url(images/bgimage4.jpg) no-repeat top left; }
-#image-5 { background: #e75c01 url(images/bgimage5.jpg) no-repeat top left; }
-#image-6 { background: #e75c01 url(images/bgimage6.jpg) no-repeat top left; }
-#image-7 { background: #e75c01 url(images/bgimage7.gif) no-repeat top left; }
-#image-8 { background: #e75c01 url(images/bgimage8.jpg) no-repeat top left; }
-#image-9 { background: #e75c01 url(images/bgimage9.jpg) no-repeat top left; }
-#image-10 { background: #e75c01 url(images/bgimage10.jpg) no-repeat top left; }
-
+body.officers #image {
+	background: #e75c01 url(images/officers.jpg) no-repeat top left;
+}
 
 #box {
 	line-height: 18px;
