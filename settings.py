@@ -77,7 +77,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
 )
 
-ROOT_URLCONF = 'princeton-class-site.urls'
+ROOT_URLCONF = '2010.urls'
 
 TEMPLATE_DIRS = os.path.join(PROJECT_PATH, 'templates')
 # (templates being the name of my template dir within project-name)
@@ -97,7 +97,8 @@ INSTALLED_APPS = (
     'cms.plugins.googlemap',
     'mptt',
     'publisher',
-    'reversion'
+    'reversion',
+    'countdowntimer'
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -109,6 +110,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 CMS_TEMPLATES = (
-    ('base.html', gettext('default')),
-    ('onecol.html', gettext('default')),
+    ('base.html', 'default'),
+    ('onecol.html', 'one column'),
 )
