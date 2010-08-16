@@ -23,11 +23,12 @@ body{
 }
 
 #header {
-	padding: 30px 25px 0px 0px;
+	padding: 30px 45px 0px 20px;
 	width: 250px;
 	float: left;
 	height: 65px;
 }
+
 #header a img {
 	border: none;
 	text-decoration: none;
@@ -45,20 +46,16 @@ body{
 	padding-bottom: 15px;
 }
 
-#navbar a{
+#navbar a {
 	padding: 5px 10px;
 	font-size: 12px;
-	font-weight: normal;
 }
 
 #navbar li {
 	display: inline;
 }
 
-li.selected a {
-	padding: 5px 10px;
-	font-size: 12px;
-	font-weight: normal;
+#navbar li.selected a {
 	background: #e75c01 url(images/navbar-hover.gif) top center repeat-x;
 	color: white;
 }
@@ -96,14 +93,18 @@ body.officers #image {
 	overflow: hidden;
 }
 
-#box p, #box h5  { margin-bottom: 10px;}
+
+.boxpad {
+	margin: 20px;
+}
+
 #box a, #box a:visited{color: white; border-bottom: 1px dotted white;}
 #box a:hover {color: #353635; border-bottom: 1px dotted #353635;}
 
 #content {
-	padding: 2em 0;
+	padding: 20px;
 	background-color: #ededed;
-	width: 900px;
+	width: 860px;
 }
 
 #content a {
@@ -129,7 +130,7 @@ body.officers #image {
 	margin-bottom: 20px;
 }
 
-#footer p{
+#footer p {
 	margin: 6px 10px;
 	font-size: 9px;
 }
@@ -155,18 +156,11 @@ div.officer a {
 	font-weight: bold;
 }
 
-h1 {font-size: 18px; margin: 0px 20px; padding: 0px 0px;}
-h2 {font-size: 16px; margin: 0px 20px; padding: 0px 0px;}
-h3 {font-size: 14px; margin: 0px 20px; padding: 0px 0px;}
-h4 {font-size: 12px; margin: 0px 20px; padding: 0px 0px;}
-h5 {font-size: 11px; margin: 10px 20px; padding: 0px 0px; font-weight: bold;}
-a, a:visited{text-decoration: none; color: #2a2a2a;}
-p, ul, ol, table  {margin: 10px 20px; padding: 0px 0px;}
-table td { padding: 0px 20px 2px 0px; vertical-align: top;}
+a, a:visited {
+	text-decoration: none;
+	color: #2a2a2a;
+}
 
-.width400 { width: 250px;}
 .clear{clear: both}
-.clear-line{clear: both; border-bottom: 1px solid #dcdcdc;}
 .left{float: left;}
 .right{float: right;}
-.padleft { padding-left: 20px;}

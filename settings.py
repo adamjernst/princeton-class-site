@@ -98,7 +98,7 @@ INSTALLED_APPS = (
     'mptt',
     'publisher',
     'reversion',
-    'countdowntimer'
+    '2010.countdowntimer'
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
