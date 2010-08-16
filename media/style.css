@@ -2,12 +2,10 @@
 
 body{
 	font-family: Helvetica, Arial, sans-serif;
-	line-height: 18px;
 	background: #353635 url(images/graybg.gif) repeat-x top center;
 	color: #2a2a2a; 
 	margin: 0px;
 	font-size: 14px;
-	text-align: justify;
 }
 
 #super {
@@ -43,6 +41,7 @@ body{
 #navbar {
 	background: #ededed url(images/navbar.gif) top center repeat-x;
 	text-align: right;
+	height: 18px;
 	padding-bottom: 15px;
 }
 
@@ -60,11 +59,6 @@ body{
 	color: white;
 }
 
-.white {
-	color: white;
-	display: inline;
-}
-
 #navbar a:hover {
 	background: #e75c01 url(images/navbar-hover.gif) top center repeat-x;
 	color: white;
@@ -74,17 +68,13 @@ body{
 	width: 900px;
 	height: 295px;
 	line-height: 0px;
-	background: #e75c01 url(images/bgimage5.jpg) no-repeat top left;
-}
-
-body.officers #image {
-	background: #e75c01 url(images/officers.jpg) no-repeat top left;
+	background: #e75c01 url(images/bgimage1.jpg) no-repeat top left;
 }
 
 #box {
 	line-height: 18px;
 	background-color: #e75c01;
-	margin-top: 66px;
+	margin-top: 67px;
 	width: 275px;
 	height: 180px;
 	float: right;
@@ -133,6 +123,12 @@ body.officers #image {
 #footer p {
 	margin: 6px 10px;
 	font-size: 9px;
+}
+
+/* Officers page */
+
+body.officers #image {
+	background: #e75c01 url(images/officers.jpg) no-repeat top left;
 }
 
 div#officers {
