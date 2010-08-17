@@ -43,6 +43,7 @@ body{
 	text-align: right;
 	height: 18px;
 	padding-bottom: 15px;
+	clear: both;
 }
 
 #navbar a {
