@@ -99,7 +99,7 @@ INSTALLED_APPS = (
     'publisher',
     'reversion',
     '2010.countdowntimer',
-    '2010.paypal.standard.ipn',
+    'paypal.standard.ipn',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (

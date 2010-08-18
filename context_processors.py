@@ -1,4 +1,4 @@
-from 2010.paypal.standard.forms import PayPalPaymentsForm
+from paypal.standard.forms import PayPalPaymentsForm
 
 def class_dues(request):
     paypal_dict = {
