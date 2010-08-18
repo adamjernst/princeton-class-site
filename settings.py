@@ -98,7 +98,8 @@ INSTALLED_APPS = (
     'mptt',
     'publisher',
     'reversion',
-    '2010.countdowntimer'
+    '2010.countdowntimer',
+    '2010.paypal.standard.ipn',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -107,9 +108,14 @@ TEMPLATE_CONTEXT_PROCESSORS = (
         "django.core.context_processors.request",
         "django.core.context_processors.media",
         "cms.context_processors.media",
+        "2010.context_processors.class_dues"
 )
 
 CMS_TEMPLATES = (
     ('base.html', 'default'),
     ('onecol.html', 'one column'),
 )
+
+PAYPAL_RECEIVER_EMAIL = 'princeton2010@gmail.com'
+PAYPAL_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
+PAYPAL_SANDBOX_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'

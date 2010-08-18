@@ -20,6 +20,10 @@ body{
 	font-family: arial;
 }
 
+#dues {
+	float: right;
+}
+
 #header {
 	padding: 30px 45px 0px 20px;
 	width: 250px;
