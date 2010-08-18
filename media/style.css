@@ -1,4 +1,7 @@
-/* @override http://princeton2010.cosmicsoft.net/media/style.css */
+/* @override 
+	http://princeton2010.cosmicsoft.net/media/style.css
+	http://princeton2010.com/media/style.css
+*/
 
 body{
 	font-family: Helvetica, Arial, sans-serif;
@@ -22,6 +25,21 @@ body{
 
 #dues {
 	float: right;
+	padding: 10px;
+	margin: 10px 10px 0 0;
+	background-color: #A6DEF4;
+	border: 1px solid #487EFF;
+	font-weight: bold;
+}
+
+#dues form {
+	display: inline;
+}
+
+#dues input {
+	margin: -10px 0;
+	position: relative;
+	top: -3px;
 }
 
 #header {
