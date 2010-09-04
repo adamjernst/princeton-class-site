@@ -9,10 +9,6 @@
 <div id="super">
 <div id="container">
 
-<div id="dues">
-Pay your class dues! {{ duesform.render }}
-</div>
-
 <div id="header">
 <a href="/"><img src="/media/images/title.gif" alt="Class of 2010, Princeton University"/></a>
 </div>
@@ -24,6 +20,9 @@ Pay your class dues! {{ duesform.render }}
 </div>
 
 <div id="image">
+	<div id="dues">
+	Pay your class dues! {{ duesform.render }}
+	</div>
 	<div id="box">
 	<div class="boxpad">
 	{% placeholder "Orange Box" %}

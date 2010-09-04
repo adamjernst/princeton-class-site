@@ -24,12 +24,12 @@ body{
 }
 
 #dues {
-	float: right;
-	padding: 10px;
-	margin: 10px 10px 0 0;
-	background-color: #A6DEF4;
-	border: 1px solid #487EFF;
+	float: left;
+	padding: 22px 10px 18px 10px;
+	background-color: #e75c01;
+	color: #fff;
 	font-weight: bold;
+	height: 8px;
 }
 
 #dues form {
