@@ -1,6 +1,5 @@
 /* @override 
-	http://princeton2010.cosmicsoft.net/media/style.css
-	http://princeton2010.com/media/style.css
+	http://www.princeton2010.org/media/style.css
 */
 
 body{
@@ -16,11 +15,22 @@ body{
 	background: transparent url(images/bg.gif) top center no-repeat;
 }
 
+#login {
+	font-family: Lucida Grande;
+	float: right;
+	padding: 32px 16px 0 0;
+	font-size: 11px;
+}
+
+#login .fblogin {
+	padding: 0 4px 0 0;
+	position: relative;
+}
+
 #container {
 	margin: auto;
 	width: 900px;	
 	background-color: #ffffff;
-	font-family: arial;
 }
 
 #dues {
@@ -127,6 +137,21 @@ body{
 #content a:hover {
 	color: #e75c01;
 	border-bottom: 1px dotted #e75c01;
+}
+
+div.sidebar {
+	float: right;
+	width: 300px;
+	padding: 30px;
+	background-color: #ccc;
+}
+
+div.sidebar h3 {
+	margin-top:  0;
+}
+
+div.sidebarclear {
+	clear: both;
 }
 
 #email {
