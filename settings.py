@@ -113,8 +113,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('onecol.html', 'one column'),
+    ('blogs.html', 'blog list'),
+    ('reunions.html', 'reunions'),
 )
 
-PAYPAL_RECEIVER_EMAIL = 'adamjernst@me.com'
+PAYPAL_RECEIVER_EMAIL = 'princetonclassof2010@gmail.com'
 PAYPAL_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
 PAYPAL_SANDBOX_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
