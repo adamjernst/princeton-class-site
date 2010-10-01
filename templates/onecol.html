@@ -4,33 +4,10 @@
 <title>Class of 2010 &raquo; {% page_attribute title %}</title>
 <link href="/media/style.css" rel="stylesheet" type="text/css" />
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-<script>
-function publish() {
-FB.ui(
-   {
-     method: 'stream.publish',
-     message: 'Just paid my Princeton 2010 class dues!',
-     user_message_prompt: 'Help our class: tell your friends you paid your class dues.'
-   },
-   function(response) {
-     if (response && response.post_id) {
-       alert('Post was published.');
-     } else {
-       alert('Post was not published.');
-     }
-   }
- );
-}
-</script>
 </head>
 <body class="{% page_attribute slug %}">
 <div id="super">
 <div id="container">
-
-<div id="login">
-<span class="fblogin"><fb:login-button></fb:login-button></span> to connect with classmates
-</div>
-
 <div id="header">
 <a href="/"><img src="/media/images/title.gif" alt="Class of 2010, Princeton University"/></a>
 </div>
@@ -53,8 +30,6 @@ FB.ui(
 </div>
 
 <div id="content">
-<a href="javascript:publish();">PUBLISH TEST</a>
-<fb:comments numposts="15" width="460"></fb:comments>
 	{% placeholder "Content" %}
 </div>
 </div> <!-- container -->
