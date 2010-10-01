@@ -29,7 +29,7 @@ body{
 
 #container {
 	margin: auto;
-	width: 900px;	
+	width: 800px;	
 	background-color: #ffffff;
 }
 
@@ -98,7 +98,7 @@ body{
 }
 
 #image {
-	width: 900px;
+	width: 800px;
 	height: 295px;
 	line-height: 0px;
 	background: #e75c01 url(images/bgimage1.jpg) no-repeat top left;
@@ -127,7 +127,7 @@ body{
 #content {
 	padding: 20px;
 	background-color: #ededed;
-	width: 860px;
+	width: 760px;
 }
 
 #content a {
@@ -161,7 +161,7 @@ div.sidebarclear {
 #footer {
 	margin: auto;
 	background-color: #353635;
-	width: 880px;
+	width: 780px;
 	border: 1px solid #4a4b4a;
 	border-top: none;
 	color: rgb(170, 170, 170);
