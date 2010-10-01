@@ -14,11 +14,7 @@ FB.ui(
      user_message_prompt: 'Help our class: tell your friends you paid your class dues.'
    },
    function(response) {
-     if (response && response.post_id) {
-       alert('Thanks for helping encourage others to pay their class dues!');
-     } else {
-       alert('Post was not published.');
-     }
+     document.getElementById('encourage').innerHTML = "And thanks for sharing on Facebook, too.";
    }
  );
 }
