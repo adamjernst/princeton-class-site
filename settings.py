@@ -115,6 +115,6 @@ CMS_TEMPLATES = (
     ('onecol.html', 'one column'),
 )
 
-PAYPAL_RECEIVER_EMAIL = 'princeton2010@gmail.com'
+PAYPAL_RECEIVER_EMAIL = 'adamjernst@me.com'
 PAYPAL_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
 PAYPAL_SANDBOX_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
