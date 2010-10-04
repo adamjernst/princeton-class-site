@@ -14,5 +14,9 @@ if settings.DEBUG:
     )
 
 urlpatterns += patterns('',
+    (r'feed/$', '2010.feedproxy.views.index'),
+)
+
+urlpatterns += patterns('',
     url(r'^', include('cms.urls')),
 )
