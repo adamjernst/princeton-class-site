@@ -139,6 +139,10 @@ body.links #image {
 	overflow: hidden;
 }
 
+body.links #box, body.links #dues {
+	/* Don't cover peoples' faces in class photo */
+	display: none;
+}
 
 .boxpad {
 	margin: 20px;
