@@ -46,9 +46,13 @@ FB.ui(
 
 <div id="content">
 {% placeholder "Content" %}
-<script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script>
-<script type="text/javascript">if (WIDGETBOX) WIDGETBOX.renderWidget('0f368bcb-f2c8-4b39-8c44-70c40e0051d8');</script>
-<noscript>You need Javascript to see the list of Princeton 2010 blogs.</noscript>
+<div id="posts">
+<div id="loading">
+<img src="/media/images/ajax-loader.gif" width="32" height="32" /> Loading blog entries...
+</div>
+<noscript>You need Javascript to see the list of Princeton 2010 blog entries, but you can still browse blogs individually on the right!</noscript>
+</div>
+<div class="clear"></div>
 </div>
 </div> <!-- container -->
 
@@ -86,6 +90,9 @@ FB.ui(
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+</script>
+
+<script src="/media/javascript/blogs.js" defer="true">
 </script>
 </body>
 </html>
