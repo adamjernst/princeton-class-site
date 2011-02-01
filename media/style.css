@@ -407,3 +407,10 @@ div.launch img {
 div.launch div.details {
 	padding: 30px 0 0 20px;
 }
+
+#reunion_signup input {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.90);
+    width: 300px;
+    padding: 6px;
+}
