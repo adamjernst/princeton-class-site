@@ -8,10 +8,6 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
 )
 
-urlpatterns += patterns('',
-    (r'^reunions-signup/', include('2010.reunions_signup.urls')),
-)
-
 if settings.DEBUG:
     urlpatterns += patterns('',
         url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT, 'show_indexes': True})
