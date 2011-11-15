@@ -118,6 +118,6 @@ CMS_TEMPLATES = (
     ('reunions.html', 'reunions'),
 )
 
-PAYPAL_RECEIVER_EMAIL = 'princetonclassof2010@gmail.com'
+PAYPAL_RECEIVER_EMAIL = 'princetontigers2010@gmail.com'
 PAYPAL_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
 PAYPAL_SANDBOX_IMAGE = 'http://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif'
